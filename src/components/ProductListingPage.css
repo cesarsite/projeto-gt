@@ -1,0 +1,17 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd; /* Pode ajustar o estilo da borda */
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%; /* Garante que a imagem ocupe a largura disponível */
+    height: auto;
+}

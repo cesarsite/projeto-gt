@@ -1,0 +1,70 @@
+.product-listing {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 15px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento em relação ao título */
+  }
+  
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px; /* Largura maior para acompanhar o aumento da borda */
+    margin: 20px; /* Espaçamento maior entre os cards */
+  }
+  
+  /* Contêiner da Imagem com Borda Maior */
+  .product-image-container {
+    width: 100%;
+    padding: 20px; /* Aumenta o espaço ao redor da imagem */
+    background-color: #f9f9f9; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  /* Imagem dentro da borda */
+  .product-image-container img {
+    width: 100%;
+    height: auto;
+    transform: rotate(-20deg); /* Inclinação diagonal */
+  }
+  
+  /* Título do Produto */
+  .product-card-name {
+    margin: 15px 0 5px; /* Espaçamento maior entre a borda e o título */
+    font-size: 16px;
+    font-weight: bold;
+    color: #474747;
+    text-align: center;
+  }
+  
+  /* Preço */
+  .product-card-price {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Preço original (com linha cortada) */
+  .product-card-price-original {
+    text-decoration: line-through;
+    color: #474747;
+    font-size: 18px;
+    margin-right: 9px;
+  }
+  
+  /* Preço com desconto */
+  .product-card-price-discount {
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Preço regular (sem desconto) */
+  .product-card-price-regular {
+    color: #333;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,42 @@
+:root {
+    --dark-gray-2: #474747;
+    --primary: #C92071;
+    --white: #ffffff;
+  }
+  
+  .cadastro {
+    color: var(--dark-gray-2); /* Corrigi a capitalização de "Color" para "color" */
+    font-size: 16px; /* Adicionei o ponto e vírgula que estava faltando */
+    text-decoration: underline; /* Certifica-se de que o sublinhado é aplicado */
+    text-decoration-color: var(--dark-gray-2);
+  }
+  
+    .botao-entrar {
+      display: inline-block;
+      background-color: var(--primary);
+      width: 114px;
+      height: 40px;
+      border-radius: 4px;
+      font-weight: bold;
+      color: var(--white);
+      font-size: 14px;
+      text-align: center;
+      line-height: 40px; /* Centraliza verticalmente o texto */
+    }
+  
+    .navigation {
+      background-color: var(--white);
+    }
+    .navigation a {
+      text-decoration: none;
+      border-bottom: 2px solid transparent; /* Inicialmente invisível */
+      transition: border-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .navigation a:hover {
+      border-bottom: 2px solid #C92071; /* Cor da linha no hover */
+      color: #C92071;
+      font-weight: bold;
+    }
+    
+    
