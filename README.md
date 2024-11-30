@@ -32,4 +32,5 @@ Criar uma aplicação ecommerce para exibição e gerenciamento de produtos, pro
 - **ProductCard**: Exibição individual dos produtos.  
 - **ProductListing**: Listagem de produtos.  
 - **Gallery**: Galeria inicial de destaques.  
-- **Section**: Componentização de seções com título e links.  
+- **Section**: Componentização de seções com título e links.
+   
